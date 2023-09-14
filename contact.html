@@ -8,22 +8,8 @@
 </head>
 <body>
     <header>
-        <header>
-            <nav class="navbar">
-                <div class="logo">
-                    <a href="#">Dipesh Sapkota</a>
-                </div>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="index.html"c class="ln" >Home</a></li>
-                    <li><a href="portfolio.html" class="ln" c>Portfolio</a></li>
-                    <li><a href="services.html" class="ln"  c>Services</a></li>
-                    <li><a href="about.html" class="ln" c>About</a></li>
-                    <li><a href="contact.html" class="ln" c>cContact</a></li>
-                    <li class="close-button"c id="closeButton">&times;</li>
-                </ul>
-                <div class="menu-toggle" id="menuToggle">&#9776;</div>
-            </nav>
-        </header>
+        <h1 ><A href="index.html" class="hds">Home</A></h1>
+        <h1>Contact us</h1>
     </header>
     <main>
         <section class="contact">
@@ -46,6 +32,20 @@
 body, h1, h2, p {
     margin: 0;
     padding: 0;
+    
+}
+header{
+    display: flex;
+    gap: 40vw;
+}
+.hds{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.hds:hover{
+color: aqua;
 }
 
 body {
@@ -107,6 +107,9 @@ footer {
 
     .contact p {
         font-size: 14px;
+    }
+    header{
+        gap: 20vw;
     }
 }
 
