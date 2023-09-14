@@ -51,8 +51,11 @@
 
 <!-- Header -->
 <header>
-    <h1>About Me - Graphic Designer</h1>
-    <p>Hello, I'm Dipesh Sapkota, a passionate graphic designer with a love for creative design solutions.</p>
+    <h1><a href="index.html" class="hd">Home</a></h1>
+    <div>
+    <h1 class="d">About Me - Graphic Designer</h1>
+    <p class="p">Hello, I'm Dipesh Sapkota, a passionate graphic designer with a love for creative design solutions.</p>
+</div>
 </header>
 
 <!-- Main Content -->
@@ -83,6 +86,9 @@
             background-color: #333;
             color: #fff;
             padding: 20px;
+            display: flex;
+            gap: 25vw;
+            align-items: center;
         }
 
         #projectImage {
@@ -90,6 +96,38 @@
             height: auto;
             margin: 20px auto;
         }
+        .hd{
+            text-decoration: none
+            ;
+            color: azure;
+        }
+        .hd:hover{
+            color: aqua;
+        }
+        @media screen and (max-width: 600px) {
+   header{
+    font-size: 4px;
+         gap: 5vw;
+         width: 100%;
+         overflow: hidden;
+   }
+    .hd{
+        font-size: smaller;
+    }
+    .d{
+        font-size: 10px;
+    }
+    .p{
+        font-size: 10px;
+    }
+    .img{
+        width: 300px;
+        overflow: hidden;
+    }
+    
+}
+
+
     </style>
 </head>
 <body>
@@ -101,7 +139,7 @@
 
 <!-- Main Content -->
 <div class="container">
-    <img id="projectImage" src="https://th.bing.com/th/id/OIP.c2uGgP6VZB4g4fOfC1fKdwHaEK?pid=ImgDet&rs=1" alt="Random Graphic Design Project">
+    <img src="https://source.unsplash.com/random/600x600?computers" class="img"  alt="Projects">
 </div>
 
 
@@ -111,7 +149,7 @@
 
 <section class="container">
     <h2>Doing what I love</h2>
-    <iframe src="https://th.bing.com/th/id/OIP.PbbAIH5wQpZIkHjkGELHQwHaHa?pid=ImgDet&rs=1" frameborder="0" pwidth="100%" height="500"  paddalign:center; class="sc" ></iframe>
+    <img src="https://source.unsplash.com/random/600x600?technology" class="img" alt="Projects">
 </section>
 <style>
     .sc{
