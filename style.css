@@ -93,7 +93,43 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(https://source.unsplash.com/random/1000x1000/?dark);
+    background-size: cover;
+    background-blend-mode:hard-light;
+    width: 100vw;
+    
+}
+
+.mytext{
+    text-align: center;
+    padding: 10px 100px;
+    display: inline;
+}
+.txt1{
+    color: #fff;
+    font-size: 30px;
+}
+.txt2{
+    color: #fff;
+    font-size: 20px;
+}
+.txt3{
+    color: #fff;
+}
+.im{
+    padding: 0;
+    margin: 0;
+    border: 3px solid white;
+     border-radius: 50%;
+     ;
+
+}
+.im img{
+    height: 1000px;;
 }
 .ll{
     color: aqua;
