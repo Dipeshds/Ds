@@ -118,13 +118,15 @@ footer {
     }
 
     .menu-toggle {
-        display: block;
-        position: absolute;
-        top: 7px;
-        right: 20px;
-        cursor: pointer;
-        width: 40px;
-    padding: 5px 10px;
+      height: 60px;
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    cursor: pointer;
+    width: 60px;
+    padding: 5px 20px;
+    size: 40px;
     }
 
     .close-button {
