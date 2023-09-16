@@ -23,7 +23,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 <a href= https://dipeshds.github.io/Ds/index.html>Dipesh Sapkota</a></p>
+        <p>&copy; 2023 Dipesh Sapkota. All rights reserved.</p>
     </footer>
 </body>
 </html>
@@ -37,10 +37,12 @@ body, h1, h2, p {
 header{
     display: flex;
     gap: 40vw;
+    align-items: center;
 }
 .hds{
     text-decoration: none;
     color: aliceblue;
+    align-items: center;
 }
 
 
@@ -96,7 +98,9 @@ footer {
     main {
         padding: 10px;
     }
-
+h1{
+    height: 14px;
+}
     .contact {
         padding: 10px;
     }
@@ -112,5 +116,8 @@ footer {
         gap: 20vw;
     }
 }
-
+@media screen and (max-width: 500x) {
+    .hds{
+        font-size: 10px;
+    }
 </style>
