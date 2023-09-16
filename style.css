@@ -123,6 +123,8 @@ footer {
         top: 7px;
         right: 20px;
         cursor: pointer;
+        width: 40px;
+    padding: 5px 10px;
     }
 
     .close-button {
