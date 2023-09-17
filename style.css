@@ -8,8 +8,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    background: rgba(0, 0, 0, 0.1) url(white.jpg);
+    background: #0000001a url(white.jpg);
     background-size: cover;
+    background-blend-mode: darken;
     
     
 }
@@ -98,16 +99,21 @@ footer {
 }
 .background{
     background: rgba(0, 0, 0, 0.2) url(ok.jpg);
+
     background-size:contain ;
-    background-blend-mode:hard-light;
     width: 100vw;
+    background-blend-mode: darken;
+
     
 }
 .back{
-    background: rgba(0, 0, 0, 0.1) url(mu.jpg);
+    background: rgba(0, 0, 0, 0.7) url(mu.jpg);
+    background-blend-mode: darken;
 }
 .white{
     background: rgba(0, 0, 0, 0.1) url(white.jpg);
+    background-blend-mode: darken;
+
 }
 
 .mytext{
@@ -130,7 +136,7 @@ footer {
     padding: 0;
     margin: 0;
     border: 3px solid white;
-     border-radius: 50%;
+     border-radius: 300px;
      ;
 
 }
