@@ -211,29 +211,27 @@ body {
 
 .wrapper{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 100px;
-    
 }
 .static-txt{
     color: #fff;
     font-size: 100px;
-    font-weight: 400;
+    
 }
 .dynamic-txt{
     margin-left: 15px;
     line-height: 90px;
     height: 90px;
     overflow: hidden;
-    margin-top: 0px;
+    font-size: 100px;
+   
 }
 .dynamic-txt li{
     list-style: none;
     color: aqua;
     font-size: 60px;
-    font-weight: 500;
+    font-size: 100px;
+
+
     top: 0;
 
     position: relative;
@@ -246,13 +244,10 @@ body {
     }
     
 }
-.dynamic-txt li{
-    position: relative;
-}
+
 .dynamic-txt li::after{
     content: "";
     position: absolute;
-    left: 200px;
     height:100% ;
     width: 100%;
     background-color: #082032;
