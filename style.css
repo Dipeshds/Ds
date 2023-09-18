@@ -52,7 +52,7 @@ body {
 }
 .dynamic-txt li{
     list-style: none;
-    color: aqua;
+    color: red;
     font-size: 60px;
     font-weight: 500;
     top: 0;
