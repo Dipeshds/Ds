@@ -15,3 +15,9 @@ closeButton.addEventListener("click", () => {
     
 });
 
+// Wait for the page to load
+window.addEventListener('load', function () {
+    // Hide the preloader by adding a "hidden" class to the preloader element
+    const preloader = document.querySelector('.preloader');
+    preloader.classList.add('hidden');
+});
