@@ -257,12 +257,12 @@ footer {
     }
 
     .static-txt{
-        font-size: 40px;
+        font-size: 30px;
         margin-left: 20px;
         
     }
     .dynamic-txt li{
-        font-size: 40px;
+        font-size: 30px;
         z-index: -0.5;
     }
 
