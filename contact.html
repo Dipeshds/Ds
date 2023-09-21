@@ -3,28 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact Information</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
-    <header>
-        <h1 ><A href="index.html" class="hds">Home</A></h1>
-        <h1>Contact us</h1>
-    </header>
-    <main>
-        <section class="contact">
-            <h2>Contact Information</h2>
-            <p>Email: dipeshz438@gmail.com</p>
-            <p>Phone: i dont have </p>
-            <p>Address: Gaindakot -5 ,Nawalpur,Nepal</p>
-            <p><a href="https://www.facebook.com/dpacwe.sapkota/" class="link">Facebook</a></p>
-            <p><a href="https://www.instagram.com/dipeshz438/" class="link">Instagram</a></p>
-            <p><a href="https://twitter.com/DipeshS30879082" class="link">Twitter</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Dipesh Sapkota. All rights reserved.</p>
-    </footer>
+
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo"><a href="index.html" >Dipesh Sapkota</a></h1>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html" style="color:aqua" style="text-decoration: underline;" class="lnk">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: dipeshz438@gmail.com</p>
+        <p>Phone: i dont have </p>
+        <p>Address: Gaindakot -5 ,Nawalpur,Nepal</p>
+        <p><a href="https://www.facebook.com/dpacwe.sapkota/" class="link">Facebook</a></p>
+        <p><a href="https://www.instagram.com/dipeshz438/" class="link">Instagram</a></p>
+        <p><a href="https://twitter.com/DipeshS30879082" class="link">Twitter</a></p>
+    </section>
+</main>
+
+
+  
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/dpacwe.sapkota/" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/DipeshS30879082" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/dipeshz438/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dipesh-sapkota-6a0b57274/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+       
+        <p class="ll2">&copy; 2023 <a href="index.html" class="ll">Dipesh Sapkota.</a>All rights reserved.</p>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
+<!-- JavaScript for Navigation Toggle -->
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
 <style>
@@ -34,11 +73,7 @@ body, h1, h2, p {
     padding: 0;
     
 }
-header{
-    display: flex;
-    gap: 40vw;
-    align-items: center;
-}
+
 .hds{
     text-decoration: none;
     color: aliceblue;
@@ -49,18 +84,11 @@ header{
 .hds:hover{
 color: aqua;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+a .lnk{
+    color: aqua;
+    text-decoration: underline;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
 
 main {
     max-width: 800px;
@@ -115,5 +143,3 @@ footer {
         gap: 20vw;
     }
 }
-
-</style>

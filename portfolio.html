@@ -3,78 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Dipesh Sapkota</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
-    <header>
-        <h1><a href="index.html" class="hd">Home</a></h1>
-        <h1> Portfolio:
-            <br>
-            Some digital arts
-        </h1>
-    </header>
-    <main>
-        <section class="project">
-            <img src="https://source.unsplash.com/random" alt="Projects">
-            <p class="reference"></p>
-        </section>
-        <section class="project">
-            <img src="https://source.unsplash.com/random/800x600/sky" alt="Projects">
-            <p class="reference"></p>
-            <img src="https://source.unsplash.com/random/800x600?graphic designer" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?photoshop" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?after effects" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?phtography" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?video editing" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?adobe" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?art" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600?graphic" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600/poster design" alt="Projects">
-            <img src="https://source.unsplash.com/random/800x600" alt="Projects">
-          
-        </section>
-        <!-- Add more projects as needed with appropriate image URLs -->
-    </main>
-    <footer>
-        <p>&copy; 2023 Dipesh Sapkota. All rights reserved.</p>
-    </footer>
+
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo"><a href="index.html" >Dipesh Sapkota</a></h1>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html"  style="color:aqua">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<h1 style="margin-left: 45%;" style="background-color: yellow;" class=""> Some digital arts</h1>
+
+<main>
+
+    </section>
+    <section class="project">
+        <img src="https://source.unsplash.com/random/600x600?graphic designer" >
+        <img src="https://source.unsplash.com/random/600x600?photoshop" >
+        <img src="https://source.unsplash.com/random/600x600?after effects" >
+        <img src="https://source.unsplash.com/random/600x600?phtography" >
+        <img src="https://source.unsplash.com/random/600x600?video editing ">
+        <img src="https://source.unsplash.com/random/600x600?writing ">
+        <img src="https://source.unsplash.com/random/600x600?printing ">
+        <img src="https://source.unsplash.com/random/600x600?drawing ">
+        <img src="https://source.unsplash.com/random/600x600?adobe ">
+        <img src="https://source.unsplash.com/random/600x600?art" >
+        <img src="https://source.unsplash.com/random/600x600?graphic ">
+        <img src="https://source.unsplash.com/random/600x600/poster design ">
+        <img src="https://source.unsplash.com/random/600x600" >
+      
+    </section>
+    <!-- Add more projects as needed with appropriate image URLs -->
+</main>
+<style>
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+  
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/dpacwe.sapkota/" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/DipeshS30879082" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/dipeshz438/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dipesh-sapkota-6a0b57274/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+       
+        <p class="ll2">&copy; 2023 <a href="index.html" class="ll">Dipesh Sapkota.</a>All rights reserved.</p>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
+<!-- JavaScript for Navigation Toggle -->
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
 <Style>
     /* Reset some default styles */
-body, h1, p {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    text-decoration: none;
-    gap: 40vw;
-    align-items: center;
-}
-.hd{
-    color: #fff;
-    text-decoration: none;
-
-}
-.hd:hover{
-    color: aqua;
-   
-}
 
 main {
-    max-width: 800px;
+    max-width: 9000px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
@@ -82,9 +98,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section .project{
+    position: relative;
+    left: 30%;
+}
+}
 .project {
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
+    left: 40%;
 }
 
 .project img {
@@ -92,24 +115,18 @@ main {
     height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
+    position: relative;
+    left: 30%;
 }
 
 .reference {
-    font-size: 14px;
-    margin-top: 10px;
+    margin-top: 40%;
 }
 
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
 @media screen and (max-width: 600px) {
-    header{
-        gap: 20vw;
-        font-size: 7px;
-    }
+.h1k{
+    margin-left: 50%;
+}
 }
 
 

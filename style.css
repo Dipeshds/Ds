@@ -38,7 +38,7 @@
     border-top: 4px solid aqua;
     width: 40px;
     height: 40px;
-    animation: spin 3s linear infinite;
+    animation: spin 10s linear infinite;
 }
 
 .loading-text {
@@ -139,9 +139,8 @@
 
 
 }
-
-.nav-links a.active {
-    color: #ff5733;
+.nav-links a::after{
+    color: aqua;
 }
 
 /* Styles for the content */
