@@ -38,7 +38,7 @@
     border-top: 4px solid aqua;
     width: 40px;
     height: 40px;
-    animation: spin 10s linear infinite;
+    animation: spin 3s linear infinite;
 }
 
 .loading-text {
@@ -139,8 +139,9 @@
 
 
 }
-.nav-links a::after{
-    color: aqua;
+
+.nav-links a.active {
+    color: #ff5733;
 }
 
 /* Styles for the content */
@@ -204,10 +205,28 @@ body {
     background: #0000001a url(white.jpg);
     background-size: cover;
     background-blend-mode: darken;
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.95) url(ds.png);
+    background-size: contain;
+    background-blend-mode:screen;
     
     
 }
+.newsec{
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.95) url(ds.png);
+    background-size: contain;
+    background-blend-mode:screen;
 
+}
+.myinfo{
+    
+        font-family: Arial, sans-serif;
+        background: rgba(255, 255, 255, 0.95) url(ds.png);
+        background-size: contain;
+        background-blend-mode:screen;
+    
+}
 .wrapper{
     display: flex;
 }
@@ -299,8 +318,10 @@ footer {
     
 }
 .back{
-    background: rgba(0, 0, 0, 0.7) url(mu.jpg);
-    background-blend-mode: darken;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.95) url(ds.png);
+    background-size: contain;
+    background-blend-mode:darken;
 }
 .white{
     background: rgba(0, 0, 0, 0.1) url(white.jpg);
